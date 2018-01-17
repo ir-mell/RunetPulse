@@ -1,0 +1,690 @@
+html {
+    font-size: 100%;
+    font-family: "Muller", "Calibri", "Trebuchet", sans-serif;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("fonts/MullerRegular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("fonts/MullerLight.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("fonts/MullerThin.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("fonts/MullerBold.ttf");
+    font-weight: 600;
+}
+
+.container .row {
+    margin-bottom: 0.9rem;
+    margin-top: 0.9rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+
+.padding-right-none{
+    padding-right: 0 !important;
+}
+
+.padding-left-none{
+    padding-left: 0 !important;
+}
+
+.margin-none{
+    margin: 0 !important;
+}
+
+
+.card {
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+}
+
+i.tiny {
+    font-size: 1.3rem !important;
+}
+
+header h1,
+header h2 {
+    font-family: Muller;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+nav {
+    height: 3.4375rem;
+    line-height: 3.4375rem;
+    border-radius: 0.1875rem;
+    background-color: #69588d;
+}
+
+nav .nav-wrapper i {
+    height: 3.4375rem;
+    line-height: 3.4375rem;
+}
+
+nav a.button-collapse i {
+    height: 3.4375rem;
+    line-height: 3.4375rem;
+    padding-left: 0.625rem;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+.bread-crumbs img{
+    padding: 0 5px;
+}
+
+.heading h1{
+    font-family: Muller;
+    font-size: 1.2rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0.6rem 0;
+}
+
+.last-news,
+.weather,
+.subscription {
+    border: 0.6px solid #eeeeee;
+    padding: 1.25rem 1.875rem 0.625rem 1.875rem;
+    position: relative;
+    margin-bottom: 0.625rem;
+}
+
+.last-news>span,
+.weather>span,
+.subscription>span {
+    font-family: Muller;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.last-news>img,
+.weather>img,
+.subscription>img {
+    vertical-align: inherit;
+    position: absolute;
+    left: 0;
+}
+
+.last-news .item span {
+    font-weight: 800;
+}
+
+.weather .weather-moscow img {
+    padding-top: 0.6rem;
+}
+
+.weather-moscow .degree {
+    padding: 0.625rem;
+}
+
+.weather-moscow .degree p:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.weather-moscow .degree p:nth-child(2) {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.weather-moscow .location span {
+    font-weight: bold;
+}
+
+.subscription input[type=email] {
+    border: 0.0625rem solid #eeeeee;
+    border-radius: 0.1875rem;
+    height: 2.6875rem;
+}
+
+input[type=email]:focus {
+    border-bottom: 0.0625rem solid #5f4f80 !important;
+    box-shadow: 0 0.0625rem 0 0 #5f4f80 !important;
+}
+
+.subscription label {
+    left: 0;
+}
+
+input[type=email]:focus:not([readonly])+label {
+    display: none;
+}
+
+.btn:hover {
+    background-color: #493d62;
+}
+
+.subscription a {
+    background-color: #5f4f80;
+    height: 2.6875rem;
+    line-height: 2.9375rem;
+    border-radius: 0.1875rem;
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+
+.right-column {
+    margin-left: 0.8125rem;
+}
+
+.main-news h6,
+.articles h6,
+.interview h6,
+.infographics h6 {
+    font-family: Muller;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card {
+    margin: 0;
+}
+
+.picture-news .card .card-title {
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.picture-news .card .card-title span {
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.picture-news .col .l4 {
+    margin-left: 0.625rem;
+}
+
+.main-news .item {
+    margin-right: 0.625rem;
+}
+
+.main-news .item p {
+    border-right: 0.0625rem solid #eeeeee;
+}
+
+.main-news .item .last {
+    border-right: none;
+}
+
+.main-news .item span {
+    font-weight: 800;
+}
+
+.articles time {
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.articles h3 {
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.articles p {
+    margin: 0;
+}
+
+.articles .left-column .item {
+    border-bottom: 0.0625rem solid #eeeeee;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.articles .left-column .item.last {
+    border-bottom: none;
+}
+
+.articles .card p {
+    font-size: 1rem;
+}
+
+.interview .item {
+    padding: 1.25rem 1.875rem 0.625rem 1.875rem;
+    position: relative;
+    margin-bottom: 0.625rem;
+    border: 0.0625rem solid #eeeeee;
+}
+
+.interview h4 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    margin: 0;
+}
+
+.interview h5 {
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 1.125rem;
+    margin-bottom: 0;
+}
+
+footer.page-footer {
+    padding-top: 5px;
+    background-color: #5f4f80;
+    margin: 0;
+}
+
+footer.page-footer .top-footer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+footer.page-footer .footer-copyright {
+    background-color: #493d62;
+    line-height: normal;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 0.1875rem;
+    margin-left: 0.625rem;
+}
+
+ul li a {
+    color: #ffffff;
+}
+
+.container .row {
+    margin-right: 0;
+}
+
+.social a {
+    padding: 0 0.625rem;
+}
+
+.articles .item {
+    padding-bottom: 2.5rem;
+}
+
+
+/*  Новости*/
+
+.news-cards .card {
+    margin: 0;
+}
+
+.news-cards .card h4 {
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.news-cards .card h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.news-cards .card p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.news-cards .card a {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.news-cards .card a:hover {
+    color: #5f4f80;
+}
+
+a:hover {
+    color: #5f4f80;
+}
+
+.pagination{
+    margin: 0;
+}
+
+.pagination li {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 0.625rem;
+    line-height: 1.875rem;
+    border-radius: 0.3125rem;
+    text-align: center;
+    padding-top: 0.25rem;
+    padding-right: 0.8125rem;
+    padding-left: 0.8125rem;
+}
+
+.pagination li.active {
+    background-color: #5f4f80;
+}
+
+
+
+
+/* Статьи */
+
+a {
+    color: #000000;
+}
+
+.hide-on-large-only .card-title time {
+    font-size: 0.875rem;
+}
+
+.hide-on-large-only .card-title h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 600;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.4375rem;
+    letter-spacing: 0.0625rem;
+}
+
+.hide-on-large-only .card-title p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.25rem;
+    padding: 0 !important;
+}
+
+
+.articles-first-row .left-column {
+    padding: 1.25rem 0;
+}
+
+.articles-first-row .card .card-title {
+    padding: 1.875rem;
+}
+
+.articles-first-row .card .card-title time {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.articles-first-row .card .card-title h3 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 1.5625rem;
+    margin-bottom: 0.625rem;
+    letter-spacing: 0.0625rem;
+}
+
+.articles-first-row .card .card-title p {
+    font-size: 1.125rem;
+    padding-right: 6.25rem;
+    padding-left: 6.25rem;
+    margin: 0;
+}
+
+.small-item {
+    padding: 0.625rem;
+}
+
+.small-item time {
+    font-size: 0.875rem;
+}
+
+.small-item h3 {
+    text-transform: uppercase;
+    font-size: 1.3125rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 0.625rem;
+    margin-bottom: 0.5rem;
+}
+
+.small-item p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.small-picture time {
+    font-size: 0.875rem;
+}
+
+.small-picture h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 600;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.4375rem;
+    letter-spacing: 0.0625rem;
+}
+
+.small-picture p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.25rem;
+    padding: 0 0.625rem;
+}
+
+.small-news {
+    margin: 1.25rem 0;
+}
+
+.small-news h3 {
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.4375rem;
+}
+
+.small-news p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.25rem;
+}
+
+.articles-second-row h2,
+.interview-second-row h2{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    margin-top: 0.7rem;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*  Интервью */
+
+.col-first{
+    padding: 0 !important;
+}
+
+.interview-first-card h4{
+    font-size: 1.3125rem;
+    margin: 0;
+    padding-top: 1.2rem
+}
+
+.interview-first-card h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: 0.0625rem;
+    margin: 0.9375rem 0px;
+}
+
+.interview-first-card p{
+    font-size: 1rem;
+    padding-right: 1.25rem;
+    margin: 0;
+}
+
+.interview-second-row .item,
+.interview-third-row .item {
+    border: 0.0625rem solid #eeeeee;
+    padding: 0.625rem 2.5rem;
+    margin-bottom: 0.9375rem;
+}
+
+.interview-second-row .item h4,
+.interview-third-row .item h4{
+    font-size: 1.125rem;
+    margin: 0;
+    margin-top: 0.625rem;
+}
+
+.interview-second-row .item h5,
+.interview-third-row .item h5{
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.9375rem;
+}
+
+
+.interview-second-row .card .card-content,
+.interview-third-row .card .card-content{
+    padding: 1.875rem;
+}
+
+.interview-second-row .card h4,
+.interview-third-row .card h4{
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 0.625rem;
+}
+
+.interview-second-row .card h3,
+.interview-third-row .card h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.625rem;
+    margin: 0;
+    margin-bottom: 0.625rem;
+}
+
+/*  Контакты */
+
+.contacts h6{
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+
+.contacts p{
+    margin: 0;
+    margin-right: 2rem;
+}
+
+/*  Поиск */
+
+.search h2{
+    font-size: 27px;
+    font-weight: 600;
+    padding: 1.5625rem;
+    margin: 0;
+    padding-bottom: 0.625rem;
+}
+
+.search h3{
+    font-size: 13px;
+    padding: 0 1.5625rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.search p{
+     padding: 0 1.5625rem;
+}
+
+
+/*  О нас */
+
+.about-us h4{
+    margin: 0;
+}
+
+/* Страница */
+
+article h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+article h3 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 2.8125rem;
+    color: #5f4f80;
+}
+
+article strong {
+    font-weight: 700;
+}
+
+article img{
+    padding-bottom: 1.25rem;
+}
